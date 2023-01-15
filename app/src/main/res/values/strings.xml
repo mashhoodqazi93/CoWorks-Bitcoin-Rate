@@ -2,4 +2,6 @@
     <string name="app_name">CoWorks-Bitcoin-Rate</string>
     <string name="current_bitocoin_rate">Current Bitcoin Rate:</string>
     <string name="refresh">Refresh</string>
+    <string name="currency_value">USD %s</string>
+    <string name="dash">-</string>
 </resources>
