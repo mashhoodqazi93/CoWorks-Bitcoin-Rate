@@ -20,7 +20,7 @@ Following are the basic functionalities that were required and have been impleme
 | API integration for getting Bitcoin conversion rate to USD  | DONE  |
 | Clean Architecture  | DONE  |
 | Jetpack Compose used as its recommended for UI  | DONE  |
-| Keep UI and Business Logic code sepatate  | DONE  |
+| Keep UI and Business Logic code separate  | DONE  |
 | MVVM architecture with state driven UI| DONE  |
 | 100% Kotlin code | DONE  |
 | Used Version Control and Readme | DONE  |
