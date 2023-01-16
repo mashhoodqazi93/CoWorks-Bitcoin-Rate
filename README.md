@@ -40,6 +40,8 @@ The Architecture is based on the following points
 - Compose (For UI. All UI is driven by State)
 - Hilt (DI)
 - Retrofit
+- Coroutines
+- Flow
 
 ## Git Structure
 
