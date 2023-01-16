@@ -31,7 +31,7 @@ Overall, this project has been purely built using the guidelines provided by goo
 
 The Architecture is based on the following points
 - MVVM (Separation of UI from Business logic)
-- Clean Architecture (Different layers for Data and Domain)
+- Clean Architecture (Different layers for UI, Data and Domain)
   Note: We could use different modules for differnet architectural layers but looking at the size of this task, it would be unnecessary over engineering.
 
 ### Language and Major Libraries Used
