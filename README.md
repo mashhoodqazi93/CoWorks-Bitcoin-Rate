@@ -14,11 +14,13 @@ This project is done as assesment for Android Engineer position at Coworks.
 
 ## Feature and Functionality
 Following are the basic functionalities that were required and have been implemented
-| Requested Functionality  | Status |
+| Feature/Functionality  | Status |
 | ------------- | ------------- |
 | UI with Bitcoin USD rate and `Refresh` button  | DONE  |
 | API integration for getting Bitcoin conversion rate to USD  | DONE  |
 | 3 seconds delay added in response time  | DONE  |
+| Bitcoin logo used as App icon  | DONE  |
+| Coroutines used as requested  | DONE  |
 | Clean Architecture  | DONE  |
 | Jetpack Compose used as its recommended for UI  | DONE  |
 | Keep UI and Business Logic code separate  | DONE  |
