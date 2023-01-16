@@ -10,12 +10,17 @@ class GetUsdValueForBitcoin @Inject constructor(
     suspend operator fun invoke(): String? {
         val result = bitcoinValueRepository.getBitcoinValue()
         var usdRate: Double? = null
-        if(result.isSuccessful){
-            usdRate = result.body()?.filter {
-                it.code == Currency.USD.name
-            }?.firstOrNull()?.rate
+        result?.let {
+
+        }
+        result?.let {
+            if (result.isSuccessful) {
+                usdRate = result.body()?.filter {
+                    it.code == Currency.USD.name
+                }?.firstOrNull()?.rate
+            }
         }
         delay(3000)
-        return NumberFormat.getInstance().format(usdRate)
+        return if (usdRate != null) NumberFormat.getInstance().format(usdRate) else usdRate
     }
 }

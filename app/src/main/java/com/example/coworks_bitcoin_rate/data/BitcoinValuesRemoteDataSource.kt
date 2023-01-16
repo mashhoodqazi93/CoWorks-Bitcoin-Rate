@@ -6,7 +6,11 @@ import javax.inject.Inject
 class BitcoinValuesRemoteDataSource @Inject constructor(
     private val bitcoinRateService: BitcoinRateService
 ) {
-    suspend fun getBitcoinValue(): Response<List<RateModel>>{
-        return bitcoinRateService.getBitCoinRates()
+    suspend fun getBitcoinValue(): Response<List<RateModel>>? {
+        return try {
+            bitcoinRateService.getBitCoinRates()
+        } catch (ex: Exception) {
+            null
+        }
     }
 }

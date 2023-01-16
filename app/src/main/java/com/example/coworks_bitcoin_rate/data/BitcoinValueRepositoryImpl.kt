@@ -7,7 +7,7 @@ import javax.inject.Inject
 class BitcoinValueRepositoryImpl @Inject constructor(
     private val remoteDataSource: BitcoinValuesRemoteDataSource
 ): BitcoinValueRepository {
-    override suspend fun getBitcoinValue(): Response<List<RateModel>> {
+    override suspend fun getBitcoinValue(): Response<List<RateModel>>? {
         return remoteDataSource.getBitcoinValue()
     }
 }

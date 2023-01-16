@@ -26,4 +26,5 @@ private fun NavGraphBuilder.addBitcoinConversionScreen(){
 
 sealed class BitcoinNavigation(val route: String) {
     object BitcoinConversion: BitcoinNavigation("bitcoin_conversion")
+    data class Snackbar(val messageRes: Int): BitcoinNavigation("snackbar")
 }
