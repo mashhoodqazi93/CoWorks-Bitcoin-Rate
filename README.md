@@ -10,7 +10,7 @@ This project is done as assesment for Android Engineer position at Coworks.
 
 ## Screenshots
 
-<img src="readme/screenshot_1.png" width="200" /> <img src="readme/screenshot_2.png" width="200" /> <img src="readme/screenshot_3.png" width="200" /> <img src="readme/search.png" width="200" />
+<img src="readme/screenshot_1.png" width="200" /> <img src="readme/screenshot_2.png" width="200" /> <img src="readme/screenshot_3.png" width="200" />
 
 ## Feature and Functionality
 Following are the basic functionalities that were required and have been implemented
