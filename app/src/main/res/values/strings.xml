@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CoWorks-Bitcoin-Rate</string>
+    <string name="current_bitocoin_rate">Current Bitcoin Rate:</string>
+    <string name="refresh">Refresh</string>
 </resources>
