@@ -18,6 +18,7 @@ Following are the basic functionalities that were required and have been impleme
 | ------------- | ------------- |
 | UI with Bitcoin USD rate and `Refresh` button  | DONE  |
 | API integration for getting Bitcoin conversion rate to USD  | DONE  |
+| 3 seconds delay added in response time  | DONE  |
 | Clean Architecture  | DONE  |
 | Jetpack Compose used as its recommended for UI  | DONE  |
 | Keep UI and Business Logic code separate  | DONE  |
